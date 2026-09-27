@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { box-sizing: border-box; }
+html,body { margin:0; padding:0; background:#f5f7f4; color:#172019; }
+body { font-family: Arial, Helvetica, sans-serif; }
+button,input,select,textarea { font:inherit; }
+a { text-decoration:none; color:inherit; }
+::-webkit-scrollbar { width:7px; height:7px; }
+::-webkit-scrollbar-thumb { background:#cbd5cc; border-radius:20px; }
+@media(max-width:767px){ body{min-width:320px;} }
+
+.input{width:100%;border:1px solid #e5e7eb;border-radius:12px;padding:12px 13px;outline:none;background:white}.input:focus{border-color:#42934d;box-shadow:0 0 0 3px rgba(66,147,77,.08)}
