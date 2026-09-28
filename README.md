@@ -1,4 +1,4 @@
-# Shivam Collection — Frontend v1.1
+# Shivam Collection — Frontend v1.5
 
 Mobile-first Next.js frontend for Shivam's farmer crate collection workflow.
 
@@ -17,6 +17,9 @@ Mobile-first Next.js frontend for Shivam's farmer crate collection workflow.
 - Wholesaler destination selection
 - WhatsApp preview/open flow
 - Reports & Analytics with scalable charts, searchable farmer table, pagination and CSV export
+- Season management with start/end dates and season-wise analytics filtering
+- Active season selector in the navbar (All seasons or a defined season)
+- Season-aware given, collected, pending and farmer/wholesaler analytics
 - Data persists in browser localStorage for demo purposes
 
 ## Demo login
@@ -36,3 +39,6 @@ This is still a frontend-only demo. Authentication and data are stored in browse
 
 
 v1.4 workflow change: destination wholesaler is selected during Pick Up/collection, not when empty crates are given to the farmer.
+
+
+v1.5: Added season setup and season-wise filtering across dashboard, farmer analytics and reports. Given-crate entries are also stored against the selected season so pending analysis remains meaningful.
